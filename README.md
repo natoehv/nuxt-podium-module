@@ -52,11 +52,11 @@ Copyright (c)
 [npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-podium-module.svg
 [npm-downloads-href]: https://npmjs.com/package/nuxt-podium-module
 
-[github-actions-ci-src]: https://github.com/nuxt-community/storybook/workflows/ci/badge.svg
-[github-actions-ci-href]: https://github.com/nuxt-community/storybook/actions?query=workflow%3Aci
+[github-actions-ci-src]: https://github.com/natoehv/nuxt-podium-module/workflows/ci/badge.svg
+[github-actions-ci-href]: https://github.com/natoehv/nuxt-podium-module/actions?query=workflow%3Aci
 
-[codecov-src]: https://img.shields.io/codecov/c/github/nuxt-community/storybook.svg
-[codecov-href]: https://codecov.io/gh/nuxt-community/storybook
+[codecov-src]: https://img.shields.io/codecov/c/github/natoehv/nuxt-podium-module.svg
+[codecov-href]: https://codecov.io/gh/natoehv/nuxt-podium-module
 
 [license-src]: https://img.shields.io/npm/l/nuxt-podium-module.svg
 [license-href]: https://npmjs.com/package/nuxt-podium-module
