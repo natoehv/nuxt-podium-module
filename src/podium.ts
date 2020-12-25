@@ -51,4 +51,4 @@ const podium: Module<Options> = function (options) {
 
 export default podium;
 
-export const meta = require('./package.json');
+export const meta = require('../package.json');
