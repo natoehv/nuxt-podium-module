@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/natoehv/nuxt-podium-module/compare/v0.0.3...v0.0.4) (2020-12-26)
+
+
+### Bug Fixes
+
+* **main:** added dist files ([44ff355](https://github.com/natoehv/nuxt-podium-module/commit/44ff3555a166425f637f31933035b6ad1f8b8564))
+
 ### [0.0.3](https://github.com/natoehv/nuxt-podium-module/compare/v0.0.2...v0.0.3) (2020-12-25)
 
 
