@@ -13,6 +13,9 @@
     "lint": "eslint --ext .ts,.js,.vue .",
     "release": "yarn test && standard-version && yarn build && git push --follow-tags && yarn publish"
   },
+  "files": [
+    "dist"
+  ],
   "license": "MIT",
   "dependencies": {
     "@podium/podlet": "^4.4.14",
