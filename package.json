@@ -1,6 +1,6 @@
 {
   "name": "nuxt-podium-module",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "main": "dist/podium.js",
   "description": "Podium Podlets integration with Nuxtjs",
   "repository": "https://github.com/natoehv/nuxt-podium-module",
