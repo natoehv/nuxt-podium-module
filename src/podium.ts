@@ -17,7 +17,7 @@ const podium: Module<Options> = function (options) {
   /**
    * Used to rename local template
    */
-  this.nuxt.hook('render:before', (nuxt: any) => {
+  this.nuxt.hook('build:before', (nuxt: any) => {
     nuxt.options.appTemplatePath = path.resolve(__dirname, 'podium.template.html');
   });
 
