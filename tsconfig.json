@@ -8,7 +8,8 @@
     "moduleResolution": "Node",
     "outDir": "dist",
     "types": [
-      "node"
+      "node",
+      "@types/jest",
     ]
   },
 }

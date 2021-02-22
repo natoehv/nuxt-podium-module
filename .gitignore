@@ -1,6 +1,7 @@
 node_modules
 *.iml
 .idea
+junit.xml
 *.log*
 .vscode
 .DS_Store
