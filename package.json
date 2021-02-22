@@ -7,10 +7,10 @@
   "author": "Renato Hormazabal",
   "scripts": {
     "build": "yarn clean && tsc && yarn copy-files",
-    "test": "yarn lint",
+    "test": "yarn jest",
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/*.html dist/",
-    "lint": "eslint --ext .ts,.js,.vue .",
+    "lint": "eslint --ext .ts,.js",
     "release": "yarn test && standard-version && yarn build && git push --follow-tags && yarn publish"
   },
   "files": [
