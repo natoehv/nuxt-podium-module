@@ -3,6 +3,7 @@
     "target": "ES6",
     "module": "CommonJS",
     "allowJs": true,
+    "experimentalDecorators": true,
     "esModuleInterop": true,
     "resolveJsonModule": true,
     "moduleResolution": "Node",
@@ -12,4 +13,6 @@
       "@types/jest",
     ]
   },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }

@@ -2,7 +2,7 @@ import path from 'path';
 import Podlet from '@podium/podlet';
 
 const before = (podlet: Podlet) => (nuxt: any) => {
-  nuxt.options.appTemplatePath = path.resolve(__dirname, 'podium.template.html');
+  nuxt.options.appTemplatePath = path.resolve(__dirname, '../podium.template.html');
   const skip = asset => ({
     ...asset,
     skip: true

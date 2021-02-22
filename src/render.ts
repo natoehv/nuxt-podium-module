@@ -4,6 +4,7 @@ type renderParams = {
   podlet: Podlet;
   html: string;
   incoming: any;
+  sandbox: any;
 }
 
 const removeScript = (html: string = '') => {
@@ -13,7 +14,12 @@ const removeScript = (html: string = '') => {
   return html.replace(scripts, '');
 };
 
-export default ({ podlet, html, incoming }: renderParams) => {
+export default ({ podlet, html, incoming, sandbox }: renderParams) => {
   const bodyLessScript = removeScript(html);
-  return podlet.render(incoming, bodyLessScript);
+  let sandboxHtml = '';
+  if (sandbox && incoming.development) {
+    const events = sandbox.events || [];
+    sandboxHtml = `<podium-sandbox events='${JSON.stringify(events)}'></podium-sandbox>`;
+  }
+  return podlet.render(incoming, bodyLessScript + sandboxHtml);
 };
