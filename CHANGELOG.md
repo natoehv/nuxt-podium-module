@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/natoehv/nuxt-podium-module/compare/v0.0.6...v0.0.7) (2021-02-22)
+
+
+### Features
+
+* **hooks:** added tests ([bc627ef](https://github.com/natoehv/nuxt-podium-module/commit/bc627ef933358b4e4013536d97c5f6cd67786140))
+* **hooks:** added workflow ([c2e486e](https://github.com/natoehv/nuxt-podium-module/commit/c2e486e00b2743a54b4f3cc8a9c83e00e2d5ac26))
+* **hooks:** changed run order ([46ef4cb](https://github.com/natoehv/nuxt-podium-module/commit/46ef4cb6cf6c8d7c222e43f08e8a4cdeef13fdbd))
+* **hooks:** fixed trigger ([38d17f7](https://github.com/natoehv/nuxt-podium-module/commit/38d17f775d03e492346de59fe619724b70a56308))
+* **sandbox:** added sandbox ([7336416](https://github.com/natoehv/nuxt-podium-module/commit/733641655a4ee106c98ed073a0011fd9282cb8d0))
+* **sandbox:** fixed test ([1da027e](https://github.com/natoehv/nuxt-podium-module/commit/1da027eb5dc624552b225e5f4fb7edd8ea0ae5bc))
+
 ### [0.0.6](https://github.com/natoehv/nuxt-podium-module/compare/v0.0.5...v0.0.6) (2021-01-26)
 
 ### [0.0.5](https://github.com/natoehv/nuxt-podium-module/compare/v0.0.4...v0.0.5) (2020-12-29)
