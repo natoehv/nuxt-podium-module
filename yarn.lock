@@ -1907,7 +1907,7 @@
   dependencies:
     "@types/istanbul-lib-report" "*"
 
-"@types/jest@26.x", "@types/jest@^26.0.20":
+"@types/jest@26.0.20", "@types/jest@26.x":
   version "26.0.20"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-26.0.20.tgz#cd2f2702ecf69e86b586e1f5223a60e454056307"
   integrity sha512-9zi2Y+5USJRxd0FsahERhBwlcvFh6D2GLQnY2FH2BzK8J9s9omvNHIbvABwIluXa0fD8XVKMLTO0aOEuUfACAA==
@@ -6871,7 +6871,7 @@ jest-jasmine2@^26.6.3:
     pretty-format "^26.6.2"
     throat "^5.0.0"
 
-jest-junit@^12.0.0:
+jest-junit@12.0.0:
   version "12.0.0"
   resolved "https://registry.yarnpkg.com/jest-junit/-/jest-junit-12.0.0.tgz#3ebd4a6a84b50c4ab18323a8f7d9cceb9d845df6"
   integrity sha512-+8K35LlboWiPuCnXSyiid7rFdxNlpCWWM20WEYe6IZH6psfUWKZmSpSRQ5tk0C0cBeDsvsnIzcef5mYhyJsbug==
@@ -7098,7 +7098,7 @@ jest-worker@^26.6.2:
     merge-stream "^2.0.0"
     supports-color "^7.0.0"
 
-jest@^26.6.3:
+jest@26.6.3:
   version "26.6.3"
   resolved "https://registry.yarnpkg.com/jest/-/jest-26.6.3.tgz#40e8fdbe48f00dfa1f0ce8121ca74b88ac9148ef"
   integrity sha512-lGS5PXGAzR4RF7V5+XObhqz2KZIDUA1yD0DG6pBVmy10eh0ZIXQImRuzocsI/N2XZ1GrLFwTS27In2i2jlpq1Q==
@@ -11103,7 +11103,7 @@ tryer@^1.0.1:
   resolved "https://registry.yarnpkg.com/tryer/-/tryer-1.0.1.tgz#f2c85406800b9b0f74c9f7465b81eaad241252f8"
   integrity sha512-c3zayb8/kWWpycWYg87P71E1S1ZL6b6IJxfb5fvsUgsf0S2MVGaDhDXXjDMpdCpfWXqptc+4mXwmiy1ypXqRAA==
 
-ts-jest@^26.5.1:
+ts-jest@26.5.1:
   version "26.5.1"
   resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.5.1.tgz#4d53ee4481552f57c1624f0bd3425c8b17996150"
   integrity sha512-G7Rmo3OJMvlqE79amJX8VJKDiRcd7/r61wh9fnvvG8cAjhA9edklGw/dCxRSQmfZ/z8NDums5srSVgwZos1qfg==
