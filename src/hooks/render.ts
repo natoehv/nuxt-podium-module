@@ -1,9 +1,14 @@
 import Podlet from '@podium/podlet';
 import render from '../render';
 
-const route = (podlet: Podlet) => (_url: any, result: any, { res }: any) => {
+type RouteOptions = {
+  podlet: Podlet,
+  sandbox: any
+}
+
+const route = ({podlet, sandbox}: RouteOptions) => (_url: any, result: any, { res }: any) => {
   const incoming = res.locals.podium || {};
-  result.html = render({ incoming, html: result.html, podlet });
+  result.html = render({ incoming, html: result.html, podlet, sandbox });
 };
 
 let podiumCSS: string[] = [];

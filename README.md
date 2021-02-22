@@ -9,6 +9,7 @@
 
 - Zero configuration
 - Hot reload support
+- Sandbox to manage events
 
 ## Quick Setup
 
@@ -33,6 +34,55 @@ export default {
 }
 ```
 
+### Options
+
+| Option         | type | default  |  description
+|----------------|---|---|---|---|
+|  podletOptions |  | {} |  used to add the podlet options, to more information you can read the podium-lib documentation [here](https://podium-lib.io/docs/podlet/getting_started) |
+|  sandbox | boolean, SandboxOption  | false  | used to simulate events into your app  |
+
+#### podletOptions
+|  Option     | type         | default      | description  |
+| ----------- | -------- | ---------------- | ----- |
+| name        | string   | 'generic'        | used to name the application |
+| version     | string   | '0.0.0'          | version of your app |
+| pathname    | string   | '/'              | path of your app |
+| manifest    | string   | '/manifest.json' | path to get manifest of your app |
+| development | boolean  | false            | used to deploy app in mode development |
+
+podlet option example:
+
+```js
+podletOptions: {
+  name: 'myPodletName', // required
+  version: '1.0.0', // required
+  pathname: '/', // required
+  manifest: '/manifest.json', // optional
+  development: true, // optional, defaults to false
+},
+```
+
+#### Sandbox Options
+|  Option     | type         | default      | description  |
+| ----------- | -------- | ---------------- | ----- |
+| events        | array of events  | []       | used to give initial events |
+
+sandbox option example:
+```js
+sandbox: {
+  events: [
+    {
+      channel: 'fe-section-header',
+      topic: 'auth',
+      payload: {
+        user: {
+          name: 'User Test 2',
+        }
+      }
+    }
+  ]
+}
+```
 ## Development
 
 1. Clone this repository

@@ -22,7 +22,7 @@ describe('build', () => {
       beforeHook(nuxtMock);
       const relativePath = path.relative('nuxt-podium-module', nuxtMock.options.appTemplatePath);
   
-      expect(relativePath).toEqual('../src/hooks/podium.template.html');
+      expect(relativePath).toEqual('../src/podium.template.html');
     });
 
     test('should inject to podium scripts', () => {
