@@ -1975,9 +1975,9 @@
     "@octokit/openapi-types" "^5.2.2"
 
 "@podium/browser@^1.1.0":
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/@podium/browser/-/browser-1.1.0.tgz#a82e6726b0e812695055b0dc2f9d88d117220356"
-  integrity sha512-BqBoESBbxAEZhv4E6I4kEz9eQqn6ZOWZVKvSFnYPvZEmwWlslOwy+WhW3YVkk4NyzWZ19jT4hYinWuPyY1+JJA==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/@podium/browser/-/browser-1.2.1.tgz#3d5b956910c79ad889c3c1d4a3318db5d46b921d"
+  integrity sha512-QC/xatLWoLIpT0Hiw+xavrLBpcYwc241ezf4o18DSnL3f8xJN8y+qcSkmY+y+o7qUKVVxlOO1IpeFwbrCmbpeQ==
   dependencies:
     eventemitter3 "4.0.7"
 
