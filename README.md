@@ -26,12 +26,16 @@ npm install --save-dev nuxt-podium-module
 
 ## Configure
 
-Then, add `nuxt-podium-module` section in `nuxt.config.js`:
+Then, add `nuxt-podium-module` to `modules` and create a root config section in `nuxt.config.js`:
 
 ```js[nuxt.config.js]
 export default {
-  nuxt-podium-module: {
-    // Options
+  modules: ['nuxt-podium-module'],
+
+  'nuxt-podium-module': {
+    podletOptions: {
+      // Options
+    }
   }
 }
 ```
@@ -39,7 +43,7 @@ export default {
 ### Options
 
 | Option         | type | default  |  description
-|----------------|---|---|---|---|
+|----------------|------|----------|---|
 |  podletOptions |  | {} |  used to add the podlet options, to more information you can read the podium-lib documentation [here](https://podium-lib.io/docs/podlet/getting_started) |
 |  sandbox | boolean, SandboxOption  | false  | used to simulate events into your app  |
 
